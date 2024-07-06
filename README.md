@@ -1,5 +1,5 @@
 # Python-Flash-web-development
-This is a web development done using Python flask module for creating a site for posting blogs. First create the project folder and name it say Python-flask-web-development. Inside this folder place the main.py and config.json files. Now follow the steps below and create 2 subfolders named templates, static and paste the appropriates files as described below. 
+This is a web development done using Python flask module for creating a site for posting blogs. First create the project folder and name it say Python-flask-web-development. Inside this folder place the main.py and config.json files. In the config.json file add the email id and password for enabling the email services. You can customise project according to your requirement. Now follow the steps below and create 2 subfolders named templates, static and paste the appropriates files as described below. 
 
 #All the html files uploaded should be placed in the templates folder . These files are the client side software.
 
