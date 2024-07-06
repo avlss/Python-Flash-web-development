@@ -13,7 +13,7 @@
     "blog_name": "Subraz blogs",
     "gmail-user": "",
     "gmail-password": "",
-    "about-text": "Hi, Iam Subramaniam. Iam an Electrical Engineer crazy with automation",
+    "about-text": "You can introduce yourself. This information is assigned to 'about-text' variable inside the config.json file ",
     "no_of_posts": 2,
     "login_image":"login.jpg",
     "admin_user":"pradeep",
