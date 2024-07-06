@@ -15,3 +15,5 @@ This is a web development done using Python flask module for creating a site for
     $Inside the css folder place all the files will '.css' extension.
     
     $Inside the js folder place files with '.js' extension.
+
+The function of contact.html file is basically for uploading the user information into a database. The database used is Xamp. You can download this with link "https://www.apachefriends.org/download.html". After installation of Xamp you will be able to view the Xamp control panel. In the control panel start Apache and Mysql applications. Now if you enter "http://localhost/phpmyadmin" in your browser the phpadmin interface will be visible in your browser.
