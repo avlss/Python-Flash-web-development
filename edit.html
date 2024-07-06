@@ -1,0 +1,109 @@
+{% extends "layout.html" %}
+{% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url(' {{ url_for('static', filename='assets/img/home-bg.jpg') }} ')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1> Admin Panel</h1>
+                            Welcome You are logged in!
+                            <span class="subheading">Manage your posts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <h1> Basic Action </h1>
+                    <a href="/dashboard"><Button class="btn btn-lg btn-primary btn-block">Dashboard Home</Button></a>
+                    <a href="/logout"><Button class="btn btn-lg btn-primary btn-block">Logout</Button></a>
+                    <hr>
+                    <div >
+                       
+                      <h1> Add/Edit Posts</h1>
+                    </div>
+                    
+                    
+                    <form name="sendMessage" id="contactForm" action="/edit/{{sno}}" method="post" novalidate>
+                        <div class="form-floating">
+                            <input class="form-control" id="title" type="text" placeholder="Title" name = "title" required data-validations-required-message="Please enter your title" value="{{post.title}}">
+                            <label for="name">Title</label>
+                                
+                        </div>
+                        <div class="form-floating">
+                            <input class="form-control" id="subheading" type="text" placeholder="Subheadings" name="subheading" required data-validations-required-message="Please enter your title" value="{{post.subheading}}">
+                            <label for="name">Subheading</label>
+                            
+                            
+                        </div>
+                        <div class="form-floating">
+                            <input class="form-control" id="tagline" type="text" placeholder="tagline" name="tagline" required data-validations-required-message="Please enter your title" value="{{post.tagline}}">
+                            <label for="message">Tagline</label>
+                            
+                        </div>
+                        
+                        
+                        <div class="form-floating">
+                            <input class="form-control" id="slug" placeholder="slug" style="height: 12rem" name="slug" required data-validations-required-message="Please enter your title" value="{{post.slug}}">
+                            <label for="message">Slug</label>
+                            
+                        </div>
+
+                        <div class="form-floating">
+                            <div class="form-group floating-label-form-group controls"></div>
+                            <textarea row="5" class="form-control" id="content" placeholder="content" style="height: 12rem" name="content" required data-validations-required-message="Please enter your title">{{post.content}}</textarea>
+                            <label for="message">Content</label>
+                            
+                        </div>
+
+                        <div class="form-floating">
+                            <input class="form-control" id="img_file" placeholder="image" style="height: 12rem" name="img_file" required data-validations-required-message="Please enter your title" value="{{post.img_file}}">
+                            <label for="image">Image</label>
+                            
+                        </div>
+
+                        <div class="form-floating">
+                            <input class="form-control" id="date" placeholder="Date" style="height: 12rem" name="date" required data-validations-required-message="Please enter your title" value="{{post.date}}">
+                            <label for="date">Date time</label>
+                            
+                        </div>
+                        <br />
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                        <!-- Submit Button-->
+                        <button class="btn btn-success" value="Send" id="submitButton" type="submit">Submit</button>
+                    </form>    
+                    
+
+
+
+
+
+                    <!-- Pager-->
+                    
+                </div>
+            </div>
+        </div>
+        {% endblock %}
