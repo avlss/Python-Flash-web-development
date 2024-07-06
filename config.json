@@ -20,7 +20,7 @@
     "gen_user":"sneha",
     "admin_password": "subscribenow",
     "gen_password":"password123",
-    "upload_location": "C:\\Users\\subra\\PycharmProjects\\flask_webdevelopment\\file_uploader"
+    "upload_location": "C:\\Users\\username\\flask_webdevelopment\\file_uploader" 
 
 
   }
