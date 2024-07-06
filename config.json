@@ -10,7 +10,7 @@
     "gh_url": "https://github.com/codebuster",
     "tag_hash": "Small world",
     "tag_line": "Know your world",
-    "blog_name": "Subraz blogs",
+    "blog_name": "Admin's blogs",
     "gmail-user": "",
     "gmail-password": "",
     "about-text": "You can introduce yourself. This information is assigned to 'about-text' variable inside the config.json file ",
