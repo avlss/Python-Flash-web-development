@@ -1,0 +1,32 @@
+{
+
+  "params":
+  {
+    "local_server": "True",
+    "local_uri":"mysql://root:@localhost/codebuster",
+    "prod_uri": "mysql://root:@localhost/codebuster",
+    "fb_url": "https://facebook.com/codebuster",
+    "tw_url": "https://twitter.com/codebuster",
+    "gh_url": "https://github.com/codebuster",
+    "tag_hash": "Small world",
+    "tag_line": "Know your world",
+    "blog_name": "Subraz blogs",
+    "gmail-user": "subramaniam.subramaniam@gmail.com",
+    "gmail-password": "wkhwjfhuttvtfrjx",
+    "about-text": "Hi, Iam Subramaniam. Iam an Electrical Engineer crazy with automation",
+    "no_of_posts": 2,
+    "login_image":"login.jpg",
+    "admin_user":"pradeep",
+    "gen_user":"sneha",
+    "admin_password": "subscribenow",
+    "gen_password":"password123",
+    "upload_location": "C:\\Users\\subra\\PycharmProjects\\flask_webdevelopment\\file_uploader"
+
+
+  }
+
+
+
+
+
+}
