@@ -38,3 +38,5 @@ Filling table:
 We can add as many tables as required in the same database name and can be used for different purposes.
 Alternately the '.sql' file may be taken from here and can be imported so that the tables with the feild names taken from the database will be created in your phpmyadmin.
 
+The above steps will help you to create this web development project. To intialize the web server run the python file 'main.py' from terminal by the command 'python3 main.py'. This will start the web server in your local machine. Now from the browser type 'http://127.0.0.1:5000/'. This will take you to the login page. There are two set off login credentials here. One is for a general user and is set in config.json as 'gen_user' with a password 'gen_password'. Next is for admin user with 'admin_user' and 'admin_password'. 
+
