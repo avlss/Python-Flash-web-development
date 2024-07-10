@@ -36,4 +36,5 @@ Filling table:
 7. Finally we save.
 
 We can add as many tables as required in the same database name and can be used for different purposes.
+Alternately the '.sql' file may be taken from here and can be imported so that the tables with the feild names taken from the database will be created in your phpmyadmin.
 
